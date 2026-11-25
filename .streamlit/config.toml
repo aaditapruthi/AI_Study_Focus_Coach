@@ -1,0 +1,35 @@
+# ============================================================
+# .streamlit/config.toml — Streamlit server and theme settings
+# ============================================================
+# This file is committed to GitHub — it contains NO secrets.
+# Secret keys go in .streamlit/secrets.toml (which is git-ignored).
+
+[server]
+# Prevents Streamlit from opening a browser tab automatically
+headless = false
+
+# Disables the Streamlit file-change watcher for better stability
+# during the webcam loop. Set to true during development if needed.
+runOnSave = false
+
+[browser]
+# Disables usage statistics reporting
+gatherUsageStats = false
+
+[theme]
+# ---- Color palette (matches the CSS in app.py) ----
+# Background page color
+backgroundColor = "#F7F7F2"
+
+# Sidebar background
+secondaryBackgroundColor = "#EEEEE8"
+
+# Primary text color
+textColor = "#20251F"
+
+# Accent color used for buttons, sliders, checkboxes
+primaryColor = "#426B54"
+
+# Font — Streamlit supports "sans serif", "serif", "monospace"
+# We apply Inter/Manrope via custom CSS in app.py for finer control.
+font = "sans serif"

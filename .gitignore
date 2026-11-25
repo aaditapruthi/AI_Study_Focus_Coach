@@ -1,0 +1,51 @@
+# ============================================================
+# .gitignore — Files that should NOT be committed to GitHub
+# ============================================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+ENV/
+
+# API keys and secrets — NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Session data (optional — remove these lines if you want to commit data)
+data/sessions.csv
+data/events.csv
+data/reports.json
+
+# MediaPipe model asset (large binary file — downloaded separately)
+assets/face_landmarker.task
+
+# YOLO weights (downloaded automatically on first run)
+*.pt
+
+# Log files
+*.log
+
+# Pytest cache
+.pytest_cache/

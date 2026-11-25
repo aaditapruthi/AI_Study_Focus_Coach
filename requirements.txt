@@ -1,0 +1,33 @@
+# AI Study Focus Coach — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Requires Python 3.11
+
+# Web dashboard
+streamlit>=1.35.0
+
+# Webcam capture and image processing
+opencv-python>=4.9.0
+
+# Face landmark detection (Google MediaPipe Tasks API)
+mediapipe>=0.10.14
+
+# Phone object detection (pretrained YOLOv8 nano)
+ultralytics>=8.2.0
+
+# Numerical array operations
+numpy>=1.26.0
+
+# Data tables and CSV handling
+pandas>=2.2.0
+
+# Interactive charts
+plotly>=5.22.0
+
+# Gemini Flash API (official Google GenAI SDK)
+google-genai>=0.7.0
+
+# Load API keys from .env file
+python-dotenv>=1.0.0
+
+# Image format handling (used by MediaPipe and Streamlit)
+Pillow>=10.3.0
